@@ -115,13 +115,15 @@ int ImageLibrary::getListIndex(char const* name, char const* def)
   if (info.listIndex < 0)
   {
     Image* image = info.getImage(mpq);
-    if (image->width() == 16 && image->height() == 16)
-    {
-      if (!info.hBitmap)
-        info.hBitmap = image->createBitmap();
-      info.listIndex = ImageList_Add(list, info.hBitmap, NULL);
-      ilist.push(&info);
-    }
+	if (image) {
+		if (image->width() == 16 && image->height() == 16)
+		{
+			if (!info.hBitmap)
+				info.hBitmap = image->createBitmap();
+			info.listIndex = ImageList_Add(list, info.hBitmap, NULL);
+			ilist.push(&info);
+		}
+	}
   }
   return info.listIndex;
 }
