@@ -172,7 +172,8 @@ W3GActionParser::W3GActionParser(int version)
   types[0x51] = parse_type(0x51, "1,'islot',4,'igold',4,'ilumber'", "Transfer resources", version);
   types[0x60] = parse_type(0x60, "8,$,'stext'", "Map trigger chat command", version);
   types[0x61] = parse_type(0x61, "", "ESC pressed", version);
-  types[0x62] = parse_type(0x62, "12", "Scenario trigger", version);
+  types[0x62] = parse_type(0x62, "12", "TriggerSleepOrSyncFinished", version);
+  types[0x63] = parse_type(0x63, "8", "TriggerSyncReady", version);
   types[0x65] = parse_type(0x65, "!66", "", version);
   types[0x66] = parse_type(0x66, "[v<=6?!67:]", "Enter choose hero skill submenu", version);
   types[0x67] = parse_type(0x67, "[v<=6?4,'fx',4,'fy',4,!68:]", "Enter choose building submenu", version);
@@ -180,8 +181,12 @@ W3GActionParser::W3GActionParser(int version)
   types[0x69] = parse_type(0x69, "[v<=6?!6A:],16", "Continue game (B)", version);
   types[0x6A] = parse_type(0x6A, "16", "Continue game (A)", version);
   types[0x6B] = parse_type(0x6B, "$,'sfile',$,'sgroup',$,'skey',4,'ivalue'", "SyncStoredInteger", version);
-  types[0x70] = parse_type(0x70, "$,'sfile',$,'sgroup',$,'skey'", "SyncStored?", version);
-  types[0x75] = parse_type(0x75, "1", "Unknown", version);
+  types[0x6C] = parse_type(0x6C, "$,'sfile',$,'sgroup',$,'skey',4,'fvalue'", "SyncStoredFloat", version);
+  types[0x6D] = parse_type(0x6D, "$,'sfile',$,'sgroup',$,'skey',4,'ivalue'", "SyncStoredBoolean", version);
+  types[0x70] = parse_type(0x70, "$,'sfile',$,'sgroup',$,'skey'", "SyncEmptyInteger", version);
+  types[0x72] = parse_type(0x72, "$,'sfile',$,'sgroup',$,'skey'", "SyncEmptyBoolean", version);
+  types[0x74] = parse_type(0x74, "$,'sfile',$,'sgroup',$,'skey'", "SyncEmptyFloat", version);
+  types[0x75] = parse_type(0x75, "1", "TriggerArrowKeyEvent", version);
 }
 W3GActionParser::~W3GActionParser()
 {
