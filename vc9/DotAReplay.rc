@@ -13,13 +13,11 @@
 #undef APSTUDIO_READONLY_SYMBOLS
 
 /////////////////////////////////////////////////////////////////////////////
-// Russian resources
+// Russian (Russia) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
-#ifdef _WIN32
 LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
 #pragma code_page(1251)
-#endif //_WIN32
 
 #ifdef APSTUDIO_INVOKED
 /////////////////////////////////////////////////////////////////////////////
@@ -46,18 +44,16 @@ END
 
 #endif    // APSTUDIO_INVOKED
 
-#endif    // Russian resources
+#endif    // Russian (Russia) resources
 /////////////////////////////////////////////////////////////////////////////
 
 
 /////////////////////////////////////////////////////////////////////////////
-// English (U.S.) resources
+// English (United States) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
-#ifdef _WIN32
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 #pragma code_page(1252)
-#endif //_WIN32
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -66,8 +62,8 @@ LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 
 // Icon with lowest ID value placed first to ensure application icon
 // remains consistent on all systems.
-IDI_MAIN                ICON                    "K:\\Progs\\DotAReplay\\res\\idr_main.ico"
-IDI_PLAY                ICON                    "K:\\Progs\\DotAReplay\\res\\play.ico"
+IDI_MAIN                ICON                    "..\\res\\idr_main.ico"
+IDI_PLAY                ICON                    "..\\res\\play.ico"
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -113,11 +109,11 @@ END
 // Cursor
 //
 
-IDC_SPLITVERT           CURSOR                  "k:\\progs\\dotareplay\\res\\vsplit.cur"
-IDC_ELFHAND             CURSOR                  "K:\\Progs\\DotAReplay\\res\\sentinel.cur"
-IDC_ZOOM_IN             CURSOR                  "k:\\progs\\dotareplay\\res\\zoomin.cur"
-IDC_ZOOM_OUT            CURSOR                  "k:\\progs\\dotareplay\\res\\zoom_out.cur"
-IDC_HAND_MOVE           CURSOR                  "k:\\progs\\dotareplay\\res\\hmove.cur"
+IDC_SPLITVERT           CURSOR                  "..\\res\\vsplit.cur"
+IDC_ELFHAND             CURSOR                  "..\\res\\sentinel.cur"
+IDC_ZOOM_IN             CURSOR                  "..\\res\\zoomin.cur"
+IDC_ZOOM_OUT            CURSOR                  "..\\res\\zoom_out.cur"
+IDC_HAND_MOVE           CURSOR                  "..\\res\\hmove.cur"
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -275,7 +271,7 @@ END
 //
 
 #ifdef APSTUDIO_INVOKED
-GUIDELINES DESIGNINFO 
+GUIDELINES DESIGNINFO
 BEGIN
     IDD_TEXTPROMPT, DIALOG
     BEGIN
@@ -319,7 +315,7 @@ BEGIN
 END
 #endif    // APSTUDIO_INVOKED
 
-#endif    // English (U.S.) resources
+#endif    // English (United States) resources
 /////////////////////////////////////////////////////////////////////////////
 
 

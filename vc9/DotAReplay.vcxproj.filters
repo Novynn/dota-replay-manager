@@ -1,0 +1,1032 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{12d64506-a83c-477f-a0b6-1109f830c550}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Headers">
+      <UniqueIdentifier>{3c872fd2-b7bc-4334-98be-e042749e0fbb}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Core\Source">
+      <UniqueIdentifier>{b1ee581c-e4c3-4d0f-accf-8cdf673498d3}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{0883c22e-ec5e-443f-aa6e-064f2c484f9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Headers">
+      <UniqueIdentifier>{33aeeebb-943c-4cc9-b893-cf990b89d36c}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Base\Source">
+      <UniqueIdentifier>{8017ed20-3442-4662-b1a2-f9fc26d31f80}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{8297f1c7-aa44-4a99-a290-cde4207af11e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Headers">
+      <UniqueIdentifier>{59d3caa6-2c3d-40d3-8537-7f402534c750}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Graphics\Source">
+      <UniqueIdentifier>{b3890ca2-79a9-41e2-8362-630f13330454}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Graphics\Source\loaders">
+      <UniqueIdentifier>{774b593e-f65b-42c9-9ab5-e270d37be3bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameUI">
+      <UniqueIdentifier>{b9275230-f97e-460b-85fd-19271222ec8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameUI\Headers">
+      <UniqueIdentifier>{6e915cbb-0eb4-4cfa-abbf-25f622ab7155}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="FrameUI\Source">
+      <UniqueIdentifier>{1f734544-6092-4c7a-9a86-c637d7239b9a}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{49da3647-9213-474c-86a5-cb94c40c239e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Headers">
+      <UniqueIdentifier>{958624c8-15cf-4a9c-814a-30749476a298}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="UI\Headers\replay">
+      <UniqueIdentifier>{1316c5e6-f161-4eb6-b1a0-1d877c18ddb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Source">
+      <UniqueIdentifier>{ae938264-5588-4309-b715-4b0d396cef5b}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="UI\Source\replay">
+      <UniqueIdentifier>{36b91009-a031-4afd-924c-11a030b32aaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dota">
+      <UniqueIdentifier>{97d7d1bb-7bd8-46ec-9ad1-5763aece4be6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dota\Headers">
+      <UniqueIdentifier>{abe2bfe6-3f7b-4d72-a523-d328de5c4f67}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Dota\Headers\load">
+      <UniqueIdentifier>{ae41ddaf-5f1b-4a0a-9b5b-6f3c0c18e171}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dota\Source">
+      <UniqueIdentifier>{a589404b-d085-45cc-8a5c-16c033d7cd63}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Dota\Source\load">
+      <UniqueIdentifier>{b1817fb5-21ff-49c6-ac22-99ae0f0703a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Replay">
+      <UniqueIdentifier>{db424c2a-6b7e-4589-a8df-c10e1fad292e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Replay\Headers">
+      <UniqueIdentifier>{6bac55c3-abf6-4632-b368-334f1aa5f16d}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Replay\Source">
+      <UniqueIdentifier>{9751249f-a7b0-4369-a8a3-3214199ab936}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="rMPQ">
+      <UniqueIdentifier>{5b064917-229c-435c-9c3c-4844f07d9954}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rMPQ\Headers">
+      <UniqueIdentifier>{17a009d2-8df7-4b8c-93c0-e25d0b6422f9}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="rMPQ\Source">
+      <UniqueIdentifier>{21d63076-67b5-44fc-9b1c-9c92fa03f93f}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="_OldVersion">
+      <UniqueIdentifier>{f9de7d3d-d2b9-4fb9-8c14-673aff54c6f9}</UniqueIdentifier>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="_OldVersion\Headers">
+      <UniqueIdentifier>{d28b29ef-a0a1-4e8a-a0b6-43cb3bab534b}</UniqueIdentifier>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="_OldVersion\Source">
+      <UniqueIdentifier>{73fd73a2-b827-4bb2-9531-1c937e0230e7}</UniqueIdentifier>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Script">
+      <UniqueIdentifier>{9c0f4120-1e89-4d45-ada1-b9f7a95d45e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Headers">
+      <UniqueIdentifier>{956c3f3a-34f7-4306-961c-4d54c3e59641}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Script\Source">
+      <UniqueIdentifier>{a421ec8f-1779-431a-97c7-c4db6fa6c11a}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\core\app.h">
+      <Filter>Core\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\cfgitems.h">
+      <Filter>Core\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\registry.h">
+      <Filter>Core\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Core\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\base\array.h">
+      <Filter>Base\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\base\dictionary.h">
+      <Filter>Base\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\base\file.h">
+      <Filter>Base\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\base\gzmemory.h">
+      <Filter>Base\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\base\intdict.h">
+      <Filter>Base\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\base\mpqfile.h">
+      <Filter>Base\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\base\object.h">
+      <Filter>Base\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\base\pool.h">
+      <Filter>Base\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\base\regexp.h">
+      <Filter>Base\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\base\string.h">
+      <Filter>Base\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\base\types.h">
+      <Filter>Base\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\base\utf8.h">
+      <Filter>Base\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\base\utils.h">
+      <Filter>Base\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\base\version.h">
+      <Filter>Base\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\graphics\glib.h">
+      <Filter>Graphics\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\graphics\image.h">
+      <Filter>Graphics\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\graphics\imagelib.h">
+      <Filter>Graphics\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\graphics\rect.h">
+      <Filter>Graphics\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\frameui\controlframes.h">
+      <Filter>FrameUI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\frameui\dragdrop.h">
+      <Filter>FrameUI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\frameui\fontsys.h">
+      <Filter>FrameUI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\frameui\frame.h">
+      <Filter>FrameUI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\frameui\framewnd.h">
+      <Filter>FrameUI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\frameui\graphwnd.h">
+      <Filter>FrameUI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\frameui\listctrl.h">
+      <Filter>FrameUI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\frameui\simpledlg.h">
+      <Filter>FrameUI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\frameui\window.h">
+      <Filter>FrameUI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ui\aboutdlg.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ui\batchdlg.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ui\dirchange.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ui\folderwnd.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ui\herochart.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ui\mainwnd.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ui\replaytree.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ui\replaywnd.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ui\searchres.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ui\searchwnd.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ui\settingswnd.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ui\updatedlg.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ui\viewitem.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ui\replay\actionlog.h">
+      <Filter>UI\Headers\replay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ui\replay\actions.h">
+      <Filter>UI\Headers\replay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ui\replay\draft.h">
+      <Filter>UI\Headers\replay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ui\replay\gamechat.h">
+      <Filter>UI\Headers\replay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ui\replay\gameinfo.h">
+      <Filter>UI\Headers\replay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ui\replay\playerexp.h">
+      <Filter>UI\Headers\replay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ui\replay\playergold.h">
+      <Filter>UI\Headers\replay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ui\replay\playerinfo.h">
+      <Filter>UI\Headers\replay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ui\replay\present.h">
+      <Filter>UI\Headers\replay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ui\replay\timelinewnd.h">
+      <Filter>UI\Headers\replay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\dota\buildings.h">
+      <Filter>Dota\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\dota\colors.h">
+      <Filter>Dota\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\dota\consts.h">
+      <Filter>Dota\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\dota\dotadata.h">
+      <Filter>Dota\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\dota\mapdata.h">
+      <Filter>Dota\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\dota\load\datafile.h">
+      <Filter>Dota\Headers\load</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\replay\action.h">
+      <Filter>Replay\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\replay\actiondump.h">
+      <Filter>Replay\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\replay\cache.h">
+      <Filter>Replay\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\replay\consts.h">
+      <Filter>Replay\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\replay\hero.h">
+      <Filter>Replay\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\replay\inventory.h">
+      <Filter>Replay\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\replay\message.h">
+      <Filter>Replay\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\replay\orders.h">
+      <Filter>Replay\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\replay\player.h">
+      <Filter>Replay\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\replay\replay.h">
+      <Filter>Replay\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\replay\timeline.h">
+      <Filter>Replay\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rmpq\huffman.h">
+      <Filter>rMPQ\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rmpq\mpqcompress.h">
+      <Filter>rMPQ\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rmpq\mpqsync.h">
+      <Filter>rMPQ\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rmpq\pklib.h">
+      <Filter>rMPQ\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rmpq\rmpq.h">
+      <Filter>rMPQ\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rmpq\wave.h">
+      <Filter>rMPQ\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\script\data.h">
+      <Filter>Script\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\script\editor.h">
+      <Filter>Script\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\script\parser.h">
+      <Filter>Script\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\core\app.cpp">
+      <Filter>Core\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\main.cpp">
+      <Filter>Core\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\registry.cpp">
+      <Filter>Core\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\base\dictionary.cpp">
+      <Filter>Base\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\base\file.cpp">
+      <Filter>Base\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\base\gzmemory.cpp">
+      <Filter>Base\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\base\intdict.cpp">
+      <Filter>Base\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\base\mpqfile.cpp">
+      <Filter>Base\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\base\openurl.cpp">
+      <Filter>Base\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\base\pool.cpp">
+      <Filter>Base\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\base\regexp.cpp">
+      <Filter>Base\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\base\string.cpp">
+      <Filter>Base\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\base\utf8.cpp">
+      <Filter>Base\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\base\utils.cpp">
+      <Filter>Base\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\base\version.cpp">
+      <Filter>Base\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\graphics\glib.cpp">
+      <Filter>Graphics\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\graphics\image.cpp">
+      <Filter>Graphics\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\graphics\imagelib.cpp">
+      <Filter>Graphics\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\graphics\loaders\loadbin.cpp">
+      <Filter>Graphics\Source\loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\graphics\loaders\loadblp.cpp">
+      <Filter>Graphics\Source\loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\graphics\loaders\loadblp2.cpp">
+      <Filter>Graphics\Source\loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\graphics\loaders\loadgif.cpp">
+      <Filter>Graphics\Source\loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\graphics\loaders\loadpng.cpp">
+      <Filter>Graphics\Source\loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\graphics\loaders\loadtga.cpp">
+      <Filter>Graphics\Source\loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\frameui\controlframes.cpp">
+      <Filter>FrameUI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\frameui\dragdrop.cpp">
+      <Filter>FrameUI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\frameui\fontsys.cpp">
+      <Filter>FrameUI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\frameui\frame.cpp">
+      <Filter>FrameUI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\frameui\framewnd.cpp">
+      <Filter>FrameUI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\frameui\graphwnd.cpp">
+      <Filter>FrameUI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\frameui\listctrl.cpp">
+      <Filter>FrameUI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\frameui\simpledlg.cpp">
+      <Filter>FrameUI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\frameui\window.cpp">
+      <Filter>FrameUI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\aboutdlg.cpp">
+      <Filter>UI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\batchdlg.cpp">
+      <Filter>UI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\dirchange.cpp">
+      <Filter>UI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\folderwnd.cpp">
+      <Filter>UI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\folderwndfill.cpp">
+      <Filter>UI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\herochart.cpp">
+      <Filter>UI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\mainwnd.cpp">
+      <Filter>UI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\replaytree.cpp">
+      <Filter>UI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\replaytreefill.cpp">
+      <Filter>UI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\replaywnd.cpp">
+      <Filter>UI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\searchres.cpp">
+      <Filter>UI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\searchwnd.cpp">
+      <Filter>UI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\settingitems.cpp">
+      <Filter>UI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\settingswnd.cpp">
+      <Filter>UI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\updatedlg.cpp">
+      <Filter>UI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\viewitem.cpp">
+      <Filter>UI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\replay\actionlog.cpp">
+      <Filter>UI\Source\replay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\replay\actions.cpp">
+      <Filter>UI\Source\replay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\replay\chatfilters.cpp">
+      <Filter>UI\Source\replay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\replay\draft.cpp">
+      <Filter>UI\Source\replay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\replay\gamechat.cpp">
+      <Filter>UI\Source\replay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\replay\gameinfo.cpp">
+      <Filter>UI\Source\replay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\replay\playerexp.cpp">
+      <Filter>UI\Source\replay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\replay\playergold.cpp">
+      <Filter>UI\Source\replay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\replay\playerinfo.cpp">
+      <Filter>UI\Source\replay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\replay\present.cpp">
+      <Filter>UI\Source\replay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\replay\scriptgen.cpp">
+      <Filter>UI\Source\replay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\replay\timelinewnd.cpp">
+      <Filter>UI\Source\replay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dota\buildings.cpp">
+      <Filter>Dota\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dota\colors.cpp">
+      <Filter>Dota\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dota\dotaconsts.cpp">
+      <Filter>Dota\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dota\dotadata.cpp">
+      <Filter>Dota\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dota\mapdata.cpp">
+      <Filter>Dota\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dota\load\datafile.cpp">
+      <Filter>Dota\Source\load</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dota\load\dotaload.cpp">
+      <Filter>Dota\Source\load</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\replay\action.cpp">
+      <Filter>Replay\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\replay\actiondump.cpp">
+      <Filter>Replay\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\replay\cache.cpp">
+      <Filter>Replay\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\replay\hero.cpp">
+      <Filter>Replay\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\replay\inventory.cpp">
+      <Filter>Replay\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\replay\orders.cpp">
+      <Filter>Replay\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\replay\player.cpp">
+      <Filter>Replay\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\replay\replay.cpp">
+      <Filter>Replay\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\replay\replayconsts.cpp">
+      <Filter>Replay\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\replay\replayparser.cpp">
+      <Filter>Replay\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\replay\timeline.cpp">
+      <Filter>Replay\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\rmpq\explode.c">
+      <Filter>rMPQ\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\rmpq\filesys.cpp">
+      <Filter>rMPQ\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\rmpq\huffman.cpp">
+      <Filter>rMPQ\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\rmpq\implode.c">
+      <Filter>rMPQ\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\rmpq\mpqcompress.cpp">
+      <Filter>rMPQ\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\rmpq\rmpq.cpp">
+      <Filter>rMPQ\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\rmpq\wave.cpp">
+      <Filter>rMPQ\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\script\data.cpp">
+      <Filter>Script\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\script\editor.cpp">
+      <Filter>Script\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\script\scripteval.cpp">
+      <Filter>Script\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\script\scriptparser.cpp">
+      <Filter>Script\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\ActionLogDlg.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\ActionsDlg.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\BatchDlg.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\ChatFilters.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\colorlist.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\datafile.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\dictobj.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\dota.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\dotaload.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\DotAReplay.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\DotAReplayDlg.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\DraftDlg.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\filesys.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\gamecache.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\GameInfoDlg.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\GetDataDlg.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\glib.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\HeroChart.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\highj.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\ilib.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\image.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\itemid.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\jstring.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\ListCtrlEx.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\loadblp.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\loadtga.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\LocManager.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\mapchecksum.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\mapdata.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\MetaData.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\mpqcompress.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\newilib.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\NewPresentDlg.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\olddota.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\oldilib.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\oldreplay.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\PlayerExpDlg.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\PlayerGoldDlg.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\PlayerInfoDlg.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\PlayerStatsDlg.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\PresentDlg.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\registry.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\replay.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\rmpq.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\ScreenshotDlg.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\ScriptWnd.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\SearchDlg.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\SettingsDlg.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\slkparse.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\sparser.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\spchat.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\stdafx.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\strobj.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\systray.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\TagEditorDlg.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\TimelineDlg.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\TimePicture.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\txtparser.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\UpdateDlg.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\utils.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\war3parse.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\old_src\WorkshopDlg.cpp">
+      <Filter>_OldVersion\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DotAReplay.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\res\hmove.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\sentinel.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\vsplit.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\zoom_out.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\zoomin.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\res\idr_main.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\res\play.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\old_src\ActionLogDlg.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\ActionsDlg.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\BatchDlg.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\ChatFilters.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\colorlist.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\datafile.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\dictobj.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\dota.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\dotaload.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\DotAReplay.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\DotAReplayDlg.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\DraftDlg.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\gamecache.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\GameInfoDlg.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\GetDataDlg.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\glib.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\HeroChart.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\ilib.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\image.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\jcore.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\jparse.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\jstring.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\LocManager.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\mapdata.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\MetaData.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\mpqcompress.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\NewPresentDlg.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\olddota.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\orders.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\PlayerExpDlg.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\PlayerGoldDlg.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\PlayerInfoDlg.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\PlayerStatsDlg.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\PresentDlg.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\registry.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\replay.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\resource.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\rmpq.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\ScreenshotDlg.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\ScriptWnd.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\SearchDlg.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\SettingsDlg.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\sparser.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\stdafx.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\strobj.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\systray.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\TagEditorDlg.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\TimelineDlg.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\TimePicture.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\types.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\UpdateDlg.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\utils.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\views.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\war3parse.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\old_src\WorkshopDlg.h">
+      <Filter>_OldVersion\Headers</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
