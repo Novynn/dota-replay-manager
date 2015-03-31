@@ -493,7 +493,7 @@ uint32 ReplayActionLogTab::onMessage(uint32 message, uint32 wParam, uint32 lPara
         {
           cur += dir;
           if (cur < 0) cur = 0;
-          if (cur > actionList->actions.length()) cur = actionList->actions.length() - 1;
+          if (cur >= actionList->actions.length()) cur = actionList->actions.length() - 1;
 
           match = true;
           if (pid != -1)
